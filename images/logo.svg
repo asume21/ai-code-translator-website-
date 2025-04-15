@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4a6cf7" />
+      <stop offset="100%" stop-color="#00c9a7" />
+    </linearGradient>
+  </defs>
+  <circle cx="100" cy="100" r="90" fill="white" />
+  <g transform="translate(40, 40)">
+    <!-- Left code bracket -->
+    <path d="M0,60 L20,40 L20,20 L40,0 L15,0 L0,15 L0,85 L15,100 L40,100 L20,80 L20,60 Z" fill="url(#gradient)" />
+    <!-- Right code bracket -->
+    <path d="M120,60 L100,40 L100,20 L80,0 L105,0 L120,15 L120,85 L105,100 L80,100 L100,80 L100,60 Z" fill="url(#gradient)" />
+    <!-- Arrow -->
+    <path d="M45,50 L75,50 L65,40 L75,50 L65,60 Z" fill="url(#gradient)" />
+  </g>
+</svg>

@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Code Translator - Translate Code Between Programming Languages</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Source+Code+Pro:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">
+                <img src="images/logo.svg" alt="AI Code Translator Logo" id="logo">
+                <h1>AI Code Translator</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#demo">Demo</a></li>
+                <li><a href="#benefits">Benefits</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#download">Download</a></li>
+            </ul>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+        <div class="hero container">
+            <div class="hero-content">
+                <h1>Translate Code Between Programming Languages with AI</h1>
+                <p>Seamlessly convert code between Python, JavaScript, Java, C++, and more with our advanced AI-powered translation engine.</p>
+                <div class="cta-buttons">
+                    <a href="#download" class="btn btn-primary">Download Now</a>
+                    <a href="#demo" class="btn btn-secondary">Try Online Demo</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="images/translator-screenshot.png" alt="AI Code Translator Interface">
+            </div>
+        </div>
+    </header>
+
+    <section id="features" class="features">
+        <div class="container">
+            <h2>Powerful Features</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>LLM-Enhanced Translation</h3>
+                    <p>Combines neural models and rule-based translation with LLM enhancement for superior accuracy and idiomatic code.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-comments"></i>
+                    <h3>Astutely Chatbot</h3>
+                    <p>Integrated chatbot assistant that answers questions about code translation, processes translation requests directly, and provides personalized coding recommendations and insights to improve your development workflow.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-code"></i>
+                    <h3>Syntax Highlighting</h3>
+                    <p>Professional code editor interface with syntax highlighting that updates based on the selected language.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>Multiple Themes</h3>
+                    <p>Choose from multiple themes including Dark, Light, Monokai, and Solarized for a comfortable coding experience.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-tachometer-alt"></i>
+                    <h3>Performance Optimized</h3>
+                    <p>Model quantization reduces model size and improves inference speed, especially on CPU-only systems.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-cloud"></i>
+                    <h3>Multiple AI Providers</h3>
+                    <p>Support for OpenAI, Google Gemini, and local Llama models gives you flexibility in choosing your AI provider.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Vulnerability Scanner</h3>
+                    <p>Automatically detect security vulnerabilities in your code during translation to ensure safer, more secure implementations.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="demo" class="demo">
+        <div class="container">
+            <h2>See It In Action</h2>
+            <div class="demo-container">
+                <div class="code-example">
+                    <div class="code-header">
+                        <span>Python</span>
+                    </div>
+                    <pre><code class="language-python">
+def fibonacci(n):
+    if n <= 0:
+        return []
+    elif n == 1:
+        return [0]
+    elif n == 2:
+        return [0, 1]
+    
+    fib = [0, 1]
+    for i in range(2, n):
+        fib.append(fib[i-1] + fib[i-2])
+    
+    return fib
+
+result = fibonacci(10)
+print(result)
+                    </code></pre>
+                </div>
+                <div class="translation-arrow">
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+                <div class="code-example">
+                    <div class="code-header">
+                        <span>JavaScript</span>
+                    </div>
+                    <pre><code class="language-javascript">
+function fibonacci(n) {
+    if (n <= 0) {
+        return [];
+    } else if (n === 1) {
+        return [0];
+    } else if (n === 2) {
+        return [0, 1];
+    }
+    
+    const fib = [0, 1];
+    for (let i = 2; i < n; i++) {
+        fib.push(fib[i-1] + fib[i-2]);
+    }
+    
+    return fib;
+}
+
+const result = fibonacci(10);
+console.log(result);
+                    </code></pre>
+                </div>
+            </div>
+            <div class="demo-controls">
+                <button class="btn btn-secondary">Try Another Example</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="benefits" class="benefits">
+        <div class="container">
+            <h2>Why Use AI Code Translator?</h2>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <h3>Save Development Time</h3>
+                    <p>Quickly translate code snippets or entire files between languages without manual rewriting.</p>
+                </div>
+                <div class="benefit-card">
+                    <h3>Learn New Languages</h3>
+                    <p>See how familiar code patterns translate to other languages, accelerating your learning process.</p>
+                </div>
+                <div class="benefit-card">
+                    <h3>Improve Code Quality</h3>
+                    <p>Get idiomatic translations that follow best practices in the target language.</p>
+                </div>
+                <div class="benefit-card">
+                    <h3>Cross-Platform Development</h3>
+                    <p>Easily port applications between platforms by translating code to the required language.</p>
+                </div>
+                <div class="benefit-card">
+                    <h3>Enhanced Code Security</h3>
+                    <p>Identify and fix potential security vulnerabilities during translation, ensuring your code is not only functional but also secure.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <h2>Choose Your Plan</h2>
+            <p class="section-subtitle">Select the plan that best fits your development needs</p>
+            
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Free</h3>
+                        <div class="price">$0<span>/month</span></div>
+                    </div>
+                    <div class="pricing-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Basic code translation</li>
+                            <li><i class="fas fa-check"></i> Support for 5 programming languages</li>
+                            <li><i class="fas fa-check"></i> Syntax highlighting</li>
+                            <li><i class="fas fa-check"></i> Default theme</li>
+                            <li><i class="fas fa-check"></i> Limited translations per day</li>
+                            <li><i class="fas fa-times"></i> Astutely chatbot</li>
+                            <li><i class="fas fa-times"></i> Vulnerability scanner</li>
+                            <li><i class="fas fa-times"></i> LLM-enhanced translations</li>
+                            <li><i class="fas fa-times"></i> Premium AI providers</li>
+                        </ul>
+                    </div>
+                    <div class="pricing-cta">
+                        <a href="#download" class="btn btn-secondary">Download Free</a>
+                    </div>
+                </div>
+                
+                <div class="pricing-card featured">
+                    <div class="pricing-badge">Most Popular</div>
+                    <div class="pricing-header">
+                        <h3>Professional</h3>
+                        <div class="price">$9.99<span>/month</span></div>
+                    </div>
+                    <div class="pricing-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Advanced code translation</li>
+                            <li><i class="fas fa-check"></i> Support for 15+ programming languages</li>
+                            <li><i class="fas fa-check"></i> Enhanced syntax highlighting</li>
+                            <li><i class="fas fa-check"></i> All themes included</li>
+                            <li><i class="fas fa-check"></i> Unlimited translations</li>
+                            <li><i class="fas fa-check"></i> Astutely chatbot</li>
+                            <li><i class="fas fa-check"></i> Basic vulnerability scanning</li>
+                            <li><i class="fas fa-check"></i> LLM-enhanced translations</li>
+                            <li><i class="fas fa-check"></i> OpenAI integration</li>
+                        </ul>
+                    </div>
+                    <div class="pricing-cta">
+                        <a href="#" class="btn btn-primary">Get Professional</a>
+                    </div>
+                </div>
+                
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Enterprise</h3>
+                        <div class="price">$24.99<span>/month</span></div>
+                    </div>
+                    <div class="pricing-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Premium code translation</li>
+                            <li><i class="fas fa-check"></i> Support for all programming languages</li>
+                            <li><i class="fas fa-check"></i> Custom syntax highlighting</li>
+                            <li><i class="fas fa-check"></i> Custom themes</li>
+                            <li><i class="fas fa-check"></i> Unlimited translations</li>
+                            <li><i class="fas fa-check"></i> Advanced Astutely chatbot</li>
+                            <li><i class="fas fa-check"></i> Advanced vulnerability scanning</li>
+                            <li><i class="fas fa-check"></i> Premium LLM-enhanced translations</li>
+                            <li><i class="fas fa-check"></i> All AI providers (OpenAI, Google Gemini, Llama)</li>
+                            <li><i class="fas fa-check"></i> API access</li>
+                            <li><i class="fas fa-check"></i> Priority support</li>
+                        </ul>
+                    </div>
+                    <div class="pricing-cta">
+                        <a href="#" class="btn btn-secondary">Contact Sales</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="pricing-note">
+                <p>All plans include regular updates and community support. Enterprise plans include dedicated support and custom feature development.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="download" class="download">
+        <div class="container">
+            <h2>Download AI Code Translator</h2>
+            <p>Get started with AI Code Translator today. Available for Windows, macOS, and Linux.</p>
+            <div class="download-options">
+                <div class="download-card">
+                    <i class="fab fa-windows"></i>
+                    <h3>Windows</h3>
+                    <a href="#" class="btn btn-primary">Download Free Version</a>
+                    <a href="#" class="btn btn-outline">Download Pro Version</a>
+                </div>
+                <div class="download-card">
+                    <i class="fab fa-apple"></i>
+                    <h3>macOS</h3>
+                    <a href="#" class="btn btn-primary">Download Free Version</a>
+                    <a href="#" class="btn btn-outline">Download Pro Version</a>
+                </div>
+                <div class="download-card">
+                    <i class="fab fa-linux"></i>
+                    <h3>Linux</h3>
+                    <a href="#" class="btn btn-primary">Download Free Version</a>
+                    <a href="#" class="btn btn-outline">Download Pro Version</a>
+                </div>
+            </div>
+            <div class="source-code">
+                <i class="fab fa-github"></i>
+                <p>Prefer to build from source? Check out our GitHub repository.</p>
+                <a href="https://github.com/yourusername/ai-code-translator" class="btn btn-secondary">View on GitHub</a>
+            </div>
+            <div class="activation-note">
+                <p>Free version available immediately. Professional and Enterprise versions require activation with a license key after purchase.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/logo.svg" alt="AI Code Translator Logo">
+                    <h3>AI Code Translator</h3>
+                </div>
+                <div class="footer-links">
+                    <h4>Links</h4>
+                    <ul>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#demo">Demo</a></li>
+                        <li><a href="#benefits">Benefits</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#download">Download</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">API</a></li>
+                        <li><a href="#">Tutorials</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h4>Stay Updated</h4>
+                    <p>Subscribe to our newsletter for updates and new features.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email address">
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 AI Code Translator. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+</body>
+</html>
